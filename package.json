@@ -1,0 +1,30 @@
+{
+  "name": "create-react-vite-starter",
+  "version": "1.0.0",
+  "description": "🔥 Create a production-ready Vite + React + TypeScript + Redux starter template in seconds.",
+  "bin": {
+    "create-react-vite-starter": "./cli.js"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "redux",
+    "starter",
+    "template",
+    "scaffold",
+    "cli",
+    "create-app"
+  ],
+  "author": "Kalyan Kashaboina",
+  "license": "MIT",
+  "type": "module",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "ora": "^8.2.0"
+  }
+}

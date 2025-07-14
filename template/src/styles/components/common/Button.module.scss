@@ -1,0 +1,37 @@
+$primary-color: #007acc;
+$secondary-color: #6c757d;
+$text-color: white;
+$padding: 0.6rem 1.4rem;
+$border-radius: 6px;
+
+.button {
+  font-size: 1rem;
+  padding: $padding;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: $text-color;
+  font-weight: 500;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+.primary {
+  background-color: $primary-color;
+
+  &:hover:not(:disabled) {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.secondary {
+  background-color: $secondary-color;
+
+  &:hover:not(:disabled) {
+    background-color: darken($secondary-color, 10%);
+  }
+}
