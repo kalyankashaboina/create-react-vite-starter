@@ -42,23 +42,23 @@
   padding: 0;
   margin: 2rem 0;
   text-align: left;
+}
 
-  li {
-    padding: 0.5rem 0;
-    font-size: 0.95rem;
-    color: #334155;
+.features li {
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #334155;
+}
 
-    strong {
-      color: #0f172a;
-    }
+.features li strong {
+  color: #0f172a;
+}
 
-    code {
-      background-color: #f1f5f9;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.85rem;
-    }
-  }
+.features li code {
+  background-color: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85rem;
 }
 
 .tip {
