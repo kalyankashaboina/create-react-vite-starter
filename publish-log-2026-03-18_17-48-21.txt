@@ -35,3 +35,7 @@
 [17:48:22] Uncommitted changes found -- staging and committing...
 [17:48:22] >> Stage all changes
 [17:48:22]    CMD: git add -A
+ERROR: Updated 1 path from the index
+[17:48:28] WARNING (ignored): Updated 1 path from the index
+[17:48:28] >> Stage files
+[17:48:28]    CMD: git add -A
