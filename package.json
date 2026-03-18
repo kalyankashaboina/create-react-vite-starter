@@ -1,0 +1,53 @@
+{
+  "name": "create-react-vite-starter",
+  "version": "2.0.0",
+  "description": "\ud83d\ude80 Scaffold a production-ready Vite + React + TypeScript project in seconds. Interactive CLI with SCSS/CSS/Tailwind, RTK, TanStack Query, Vitest, GitHub Actions, Zod ENV, Storybook, ErrorBoundary, i18n, Docker & Husky \u2014 all configured.",
+  "bin": {
+    "create-react-vite-starter": "./cli.js"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "react-vite",
+    "redux",
+    "redux-toolkit",
+    "tanstack-query",
+    "react-query",
+    "scss",
+    "tailwind",
+    "css-modules",
+    "docker",
+    "husky",
+    "vitest",
+    "testing-library",
+    "storybook",
+    "i18n",
+    "react-i18next",
+    "zod",
+    "env-validation",
+    "error-boundary",
+    "github-actions",
+    "starter",
+    "template",
+    "scaffold",
+    "cli",
+    "create-app",
+    "boilerplate",
+    "react-starter"
+  ],
+  "author": "Kalyan Kashaboina",
+  "license": "MIT",
+  "type": "module",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "enquirer": "^2.3.6",
+    "fs-extra": "^11.3.0",
+    "ora": "^8.2.0"
+  }
+}

@@ -1,0 +1,17 @@
+# Development / CI
+.github/
+coverage/
+*.test.js
+*.spec.js
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Don't ignore: cli.js, package.json, README.md, .npmignore
