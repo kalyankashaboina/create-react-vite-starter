@@ -1,9 +1,9 @@
 {
   "name": "create-react-vite-starter",
   "version": "2.0.0",
-  "description": "\ud83d\ude80 Scaffold a production-ready Vite + React + TypeScript project in seconds. Interactive CLI with SCSS/CSS/Tailwind, RTK, TanStack Query, Vitest, GitHub Actions, Zod ENV, Storybook, ErrorBoundary, i18n, Docker & Husky \u2014 all configured.",
+  "description": "🚀 Scaffold a production-ready Vite + React + TypeScript project in seconds. Interactive CLI with SCSS/CSS/Tailwind, RTK, TanStack Query, Vitest, GitHub Actions, Zod ENV, Storybook, ErrorBoundary, i18n, Docker & Husky — all configured.",
   "bin": {
-    "create-react-vite-starter": "./cli.js"
+    "create-react-vite-starter": "cli.js"
   },
   "keywords": [
     "vite",
